@@ -1,0 +1,67 @@
+{
+    "model" : {
+        "image_h":               416,
+        "image_w":               416,
+        "anchors":               [0.65,1.33, 2.26,4.31],
+        "max_obj":               7,
+        "grid_h":                13,
+        "grid_w":                13,
+        "num_classes":           1,
+        "num_boxes":             2,
+        "classes":               ["car"],
+        "obj_thresh":            0.20,
+        "nms_thresh":            0.01,
+        "saved_model_name":      "weights_coco.h5",
+        "obj_scale":             50,
+        "no_obj_scale":          80,
+        "coord_scale":           5,
+        "class_scale":           1,
+        "nb_class":              1,
+        "frozen_layers":         [1,2,3,4,5]
+    },
+
+    "generator_config" : {
+        "IMAGE_H": 416,
+        "IMAGE_W": 416,
+        "GRID_H": 13,
+        "GRID_W": 13,
+        "BOX": 2,
+        "LABELS": ["car"],
+        "CLASS": 1,
+        "ANCHORS": [0.65,1.33, 2.26,4.31],
+        "BATCH_SIZE": 16,
+        "TRUE_BOX_BUFFER": 7
+    },
+
+    "plot_model":               true,
+
+    "train" : {
+        "enabled":              true,
+        "batch_size":           16,
+        "learning_rate":        1e-4,
+        "nb_epochs":            500,
+        "warmup_batches":       0,
+        "debug":                true,
+        "train_to_val_images":  0.8
+    },
+
+    "data" : {
+        "annotations_file":    "/data/car_annotations_carla.json",
+        "images":              "C:\\Users\\Igor\\Desktop\\CarlaScreenShots\\2019\\",
+        "images_width":        1242,
+        "images_height":       375
+    },
+
+    "test_config" : {
+        "obj_threshold" :      0.20,
+        "nms_threshold" :      0.01,
+        "test_images_path":    "C:\\Users\\Igor\\Desktop\\CarlaScreenShots\\2019\\",
+        "training":            false,
+        "test_images" : [
+            "manual_workspace_233546_as.png",
+            "manual_workspace_233552_as.png", "manual_workspace_233624_as.png",
+            "manual_workspace_233723_as.png",
+            "manual_workspace_233752_as.png"
+        ]
+    }
+}
