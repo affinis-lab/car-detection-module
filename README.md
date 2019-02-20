@@ -14,3 +14,5 @@
   - Set parameter _training_ to **false**
   
 - Run main.py
+
+![alt text](http://url/to/img.png)
