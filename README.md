@@ -17,8 +17,8 @@
 
 **Prediction samples:**
 
-![Screenshot 1](https://github.com/affinis-lab/car-detection-module/tree/master/images/car_image1.png)
-![Screenshot 2](https://github.com/affinis-lab/car-detection-module/tree/master/images/car_image2.png)
-![Screenshot 3](https://github.com/affinis-lab/car-detection-module/tree/master/images/car_image3.png)
-![Screenshot 4](https://github.com/affinis-lab/car-detection-module/tree/master/images/car_image4.png)
-![Screenshot 5](https://github.com/affinis-lab/car-detection-module/tree/master/images/car_image5.png)
+![Screenshot 1](https://github.com/affinis-lab/car-detection-module/blob/master/images/car_image1.png)
+![Screenshot 2](https://github.com/affinis-lab/car-detection-module/blob/master/images/car_image2.png)
+![Screenshot 3](https://github.com/affinis-lab/car-detection-module/blob/master/images/car_image3.png)
+![Screenshot 4](https://github.com/affinis-lab/car-detection-module/blob/master/images/car_image4.png)
+![Screenshot 5](https://github.com/affinis-lab/car-detection-module/blob/master/images/car_image5.png)
