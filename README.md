@@ -15,4 +15,10 @@
   
 - Run main.py
 
-![alt text](http://url/to/img.png)
+**Prediction samples:**
+
+![Screenshot 1](https://github.com/affinis-lab/car-detection-module/tree/master/images/car_image1.jpg)
+![Screenshot 2](https://github.com/affinis-lab/car-detection-module/tree/master/images/car_image2.jpg)
+![Screenshot 3](https://github.com/affinis-lab/car-detection-module/tree/master/images/car_image3.jpg)
+![Screenshot 4](https://github.com/affinis-lab/car-detection-module/tree/master/images/car_image4.jpg)
+![Screenshot 5](https://github.com/affinis-lab/car-detection-module/tree/master/images/car_image5.jpg)
