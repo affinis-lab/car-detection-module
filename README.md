@@ -13,7 +13,10 @@
   - Set path to folder with car images you want to test application on (_test_images_ parameter) 
   - Set parameter _training_ to **false**
   
+- Weights are given on the following [link](https://drive.google.com/open?id=1EM5MPjos3Kwd4qWStSRsHen56Rw2wt6P)
+  
 - Run main.py
+
 
 **Prediction samples:**
 
